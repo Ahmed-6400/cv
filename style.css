@@ -159,6 +159,14 @@ h2{
     }
 
 }
+@media (max-width:549px){
+    
+    .c{
+        height: 197px;
+    }
+    .L{
+        margin-top: 60px;
+}
 @media (max-width:461px){
     .b2{
         margin-left: 30%;
