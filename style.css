@@ -1,0 +1,172 @@
+body{
+    background-image: url(الصور/3.jpg);
+    background-size: cover;
+}
+
+header{
+    background-image: url(الصور/hea.jpg) ;
+    background-size: cover;
+}
+
+h1 {
+    display: inline-block;
+    color: royalblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Home{
+     display: inline-block; 
+     margin-left: 90%;
+     margin-bottom: 10px;
+    border-bottom:400px ;
+    color: rgb(65, 225, 172);
+}
+
+.b{
+    background-color:rgba(25, 0, 252, 0.192) ;
+}
+
+.b1{
+    display: inline-block;
+}
+
+.b2{
+    display: inline-block;
+    margin-left: 70%;
+    margin-top: 100px;
+}
+
+.y {
+    display: inline-block; 
+    margin-left: 70%;
+    margin-bottom: 10px;
+   border-bottom:400px ;
+   border-radius: 100px;
+   border: 3px solid rgba(0, 0, 255, 0.308);
+}
+
+.c{
+    margin-top: 300px;
+    margin-left: 1px ;
+    margin-right: 1px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parent .c {flex-direction: row;
+    margin: 4px;}
+
+.c1{
+    background-color: rgba(0, 0, 255, 0.274);
+    display: inline-block;
+    margin: 1px;
+    height: 270px;
+    width: 30%;
+}
+
+.c2{background-color: rgba(0, 0, 255, 0.274);
+    display: inline-block;
+    margin: 1px;
+    height: 270px;
+    width: 30%;
+}
+
+.c3{
+   
+    background-color: rgba(0, 0, 255, 0.274);
+    display: inline-block;
+    margin: 1px;
+    height: 270px;
+    width: 30%;
+
+}
+
+.L{
+    background-image: url(الصور/L.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.L1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-top: 10px;
+}
+
+.w{
+    color: gold;
+    margin-top: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 180);
+}
+
+.c1:hover{
+    background-color: rgba(0, 0, 255, 0.753);
+    border-radius: 10px;
+    box-shadow: 
+    rgba(11, 11, 94, 0.363) 9px 9px 5px;
+}
+.c2:hover{
+    background-color: rgba(0, 0, 255, 0.753);
+    border-radius: 10px;
+    box-shadow: rgba(11, 11, 94, 0.192) 9px 9px 5px;
+}
+
+.c3:hover{
+    background-color: rgba(0, 0, 255, 0.753);
+    border-radius: 10px;
+    box-shadow: rgba(11, 11, 94, 0.192) 9px 9px 5px;
+}
+
+.Home:hover{
+    background-color: blue;
+    color: cadetblue;
+    border-radius: 3px;
+    text-shadow: darkgray 8px 8px 50px;
+    box-shadow: darkslateblue 8px 8px 50px;
+    
+}
+
+@media (max-width:980px){
+    .b2{
+        margin-left: 60%;
+    }
+
+
+}
+@media (max-width:690px){
+    .b2{
+        margin-left: 50%;
+    }
+
+}
+@media (max-width:547px){
+    .b2{
+        margin-left: 40%;
+    }
+
+
+}
+@media (max-width:461px){
+    .b2{
+        margin-left: 30%;
+    }
+
+
+}
+@media (max-width:400px){
+    .b2{
+        margin-left: 20%;
+    }
+
+
+}
